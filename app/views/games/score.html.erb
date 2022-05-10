@@ -1,0 +1,5 @@
+<h1>Results</h1>
+<%# params stores user input in a hash. [:score] is the key and the actually input is the value of score %>
+<p>Sorry but <%= params[:score] %> can't be built out of <%= @letters %> </p>
+
+<%= link_to "Play again", new_path %>
